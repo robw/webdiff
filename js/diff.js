@@ -24,7 +24,7 @@
     $('.diffzone').append(iframe_one).append(iframe_two);
 
     // Create 'expando' link - increase the height of the diff area.
-    var expando = $('<a href="#" id="expando">Expand</a>').on('click', function(e){
+    var expando = $('<button type="button" id="expando" class="btn btn-block btn-default" ><span class="glyphicon glyphicon-chevron-down"></span> Expand</a>').on('click', function(e){
       e.preventDefault();
       var diffzone = $('.diffzone').eq(0);
       var current_height = diffzone.height();

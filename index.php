@@ -4,9 +4,11 @@
     <title>Page Diff</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet" media="screen">
-
+    <!--
+      https://github.com/robw/webdiff
+    //-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -27,8 +29,12 @@
     </div><!-- /.container -->
     <div class="diffzone overlay">
     </div>
+    <div class="container">
+      <p class="text-muted footer">MIT Licensed - <a href="https://github.com/robw/webdiff">https://github.com/robw/webdiff</a></p>
+    </div>
   </body>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="js/diff.js"></script>
   <script src="js/jquery.scrollto.js"></script>
 </html>

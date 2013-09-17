@@ -37,3 +37,7 @@ body {
 .diffzone.sidebyside iframe.two {
   left: 50%;
 }
+
+.footer {
+  margin: 4em 0 1em 0;
+}
